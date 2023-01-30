@@ -1,3 +1,4 @@
+
 body {
     color: #fff;
     background: #17181c;
@@ -9,6 +10,7 @@ header {
 }
 
 header h1 {
+    color: #ffff23;
     font-size: 40px;
     font-weight: 800;
 }
@@ -32,4 +34,57 @@ footer .copyright a:hover {
 }
 footer .copyright:before {
     content: '©';
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    filter: invert(1);
+}
+
+.footer-date-copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-date {
+    font-size: 14px;
+    color: #50504f;
+}
+
+.gh-link {
+    display: block;
+    background-repeat: no-repeat;
+    filter: invert(1);
+    background-image: url(./assets/GitHub.png);
+    background-position: center;
+    width: 32px;
+    height: 32px;
+    opacity: 0.5;
+    transition: all ease 0.8s;
+}
+
+
+
+.rss-link {
+    display: block;
+    background-repeat: no-repeat;
+    filter: invert(1);
+    background-image: url(./assets/rsschool.svg);
+    background-position: center;
+    width: 64px;
+    height: 64px;
+    opacity: 0.5;
+    transition: all ease 0.8s;
+}
+
+.rss-link:hover, .gh-link:hover {
+    opacity: 1;
 }

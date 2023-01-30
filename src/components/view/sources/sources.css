@@ -8,6 +8,23 @@
     font: 300 1em 'Fira Sans', sans-serif;
 }
 
+.sources::-webkit-scrollbar {
+    height: 15px;
+}
+
+.sources::-webkit-scrollbar-track{
+    background-color: #8befff;
+    box-shadow: inset 0px 0px 7px 2px #5885f9;
+    border-radius: 15px;
+}
+
+.sources::-webkit-scrollbar-thumb {
+    background-color: #265b88;
+    border-radius: 5px;
+}
+
+
+
 .source__item {
     background: none;
     border: 2px solid #30c5ff;
@@ -22,9 +39,9 @@
 
 .source__item:hover,
 .source__item:focus {
-    border-color: #3fcc59;
-    color: #69db7e;
-    box-shadow: 0 0.5em 0.5em -0.4em #3fcc59;
+    border-color: #f9ea38;
+    color: #f9ea38;
+    box-shadow: 0 0.5em 0.5em -0.4em #f9ea38;
     transform: translateY(-0.25em);
 }
 

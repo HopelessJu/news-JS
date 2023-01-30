@@ -1,0 +1,14 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "module": "es6",
+        "target": "ES6",
+        "noImplicitAny": true,
+        "strict": true,
+        "watch": true,
+        "lib": ["dom", "es2017"],
+        "moduleResolution": "node"
+    }
+}
